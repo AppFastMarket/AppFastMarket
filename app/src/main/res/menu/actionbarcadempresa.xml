@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuConsultarEmpresaID"
+        android:title="Consultar Empresa"
+        android:icon="@drawable/icone_lupa"
+        app:showAsAction="always"/>
+    <item android:id="@+id/menuSalvarEmpresaID"
+        android:title="Salvar Empresa"
+        android:icon="@drawable/icone_salvar"
+        app:showAsAction="always"/>
+    <item android:id="@+id/menuExcluirEmpresaID"
+        android:title="Excluir Empresa"
+        android:icon="@drawable/icone_lixeira"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundocadempresa"
+    tools:context="com.example.anoren.fastmarket.CadastroEmpresa">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="179dp"
+            android:text="CÓDIGO"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInfoCodigoCadEmpresaID"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView10"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/edtxtInfoCodigoCadEmpresaID"
+            android:layout_alignStart="@+id/edtxtInfoTelefoneCadEmpresaID"
+            android:text="TELEFONE"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInfoTelefoneCadEmpresaID"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView11"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edtxtInfoCodigoCadEmpresaID"
+            android:text="NOME EMPRESA"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInfoNomeCadEmpresaID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView12"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edtxtInfoNomeCadEmpresaID"
+            android:text="CIDADE"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInfoCidadeCadEmpresaID"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView13"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtxtInfoNomeCadEmpresaID"
+            android:layout_toEndOf="@+id/textView11"
+            android:text="UF"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInfoEstadoCadEmpresaID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_below="@+id/textView14"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </RelativeLayout>
+
+</LinearLayout>

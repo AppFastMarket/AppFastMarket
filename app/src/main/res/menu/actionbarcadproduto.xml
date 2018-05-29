@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:id="@+id/menuConsultarProID"
+    android:title="Consultar Produto"
+    android:icon="@drawable/icone_lupa"
+    app:showAsAction="always"/>
+<item android:id="@+id/menuSalvarProID"
+    android:title="Salvar Produto"
+    android:icon="@drawable/icone_salvar"
+    app:showAsAction="always"/>
+<item android:id="@+id/menuExcluirProID"
+    android:title="Excluir Produto"
+    android:icon="@drawable/icone_lixeira"
+    app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "25661980840",
+    "firebase_url": "https://bancodadosfastmarket.firebaseio.com",
+    "project_id": "bancodadosfastmarket",
+    "storage_bucket": "bancodadosfastmarket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25661980840:android:05cfec9a6160ed7b",
+        "android_client_info": {
+          "package_name": "com.example.anoren.fastmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25661980840-jucl0eknld6b7tiglm6nd4699ogk5u0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anoren.fastmarket",
+            "certificate_hash": "a000142f666f04a8637cb18db897f5d85036f250"
+          }
+        },
+        {
+          "client_id": "25661980840-54koa0rbu5gpt6jp6v3817fcip5p5dtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBECIQyY7E4tDX_rMSpUU4Gj-hAnjYjW-M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25661980840-54koa0rbu5gpt6jp6v3817fcip5p5dtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

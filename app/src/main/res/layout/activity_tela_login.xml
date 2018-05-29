@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundologin"
+    android:orientation="vertical"
+    tools:context="com.example.anoren.fastmarket.TelaLogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="47dp"
+            android:text="E-mail"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInfoEmailLoginID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColorLink="@android:color/holo_blue_bright" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edtxtInfoEmailLoginID"
+            android:text="Senha"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInfoSenhaLoginID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:ems="10"
+            android:inputType="numberPassword"
+            android:textColorLink="@android:color/holo_blue_bright" />
+
+        <Button
+            android:id="@+id/btnLogarLoginID"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtxtInfoSenhaLoginID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/botao_logar"
+            android:text="LOGAR"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btnNovoLoginLoginID"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/btnLogarLoginID"
+            android:layout_below="@+id/btnLogarLoginID"
+            android:layout_marginTop="29dp"
+            android:background="@drawable/botao_novo_login"
+            android:text="NOVO LOGIN"
+            android:textColor="@android:color/background_light" />
+    </RelativeLayout>
+
+</LinearLayout>

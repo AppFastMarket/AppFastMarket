@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoresetarsenha"
+    tools:context="com.example.anoren.fastmarket.ResetaLogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="166dp"
+            android:text="Email"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInfoEmailResetaSenhaID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/btnResetarResetaLoginID"
+            android:background="@drawable/botao_resetar_senha"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtxtInfoEmailResetaSenhaID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:text="RESETAR"
+            android:textColor="@android:color/background_light" />
+    </RelativeLayout>
+
+</LinearLayout>

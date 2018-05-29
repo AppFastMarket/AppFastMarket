@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoinfo"
+    tools:context="com.example.anoren.fastmarket.Info">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imvBotaoEmpresaInfoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="108dp"
+            app:srcCompat="@drawable/botao_empresa" />
+
+        <ImageView
+            android:id="@+id/imvBotaoProdutoInfoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imvBotaoEmpresaInfoID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            app:srcCompat="@drawable/botao_produto" />
+
+    </RelativeLayout>
+
+</LinearLayout>

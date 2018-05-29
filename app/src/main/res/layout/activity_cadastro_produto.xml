@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundocadastrodeprodutos"
+    tools:context="com.example.anoren.fastmarket.CadastroProduto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imvTiraFotoCadProID"
+            android:layout_width="450dp"
+            android:layout_height="240dp"
+            android:layout_above="@+id/textView8"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/imagemproduto" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="CÓDIGO"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInseriCodigoCadProID"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edtxtInseriCodigoCadProID"
+            android:text="DESCRIÇÃO"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInseriDescricaoCadProID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView7"
+            android:layout_toStartOf="@+id/edtxtInseriPrecoCadProID"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/edtxtInseriPrecoCadProID"
+            android:layout_alignStart="@+id/edtxtInseriPrecoCadProID"
+            android:text="PREÇO"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInseriPrecoCadProID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView9"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/edtxtInseriCodigoCadProID"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/edtxtInseriUnidadeCadProID"
+            android:layout_alignStart="@+id/edtxtInseriPrecoCadProID"
+            android:text="UNIDADE"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edtxtInseriUnidadeCadProID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edtxtInseriDescricaoCadProID"
+            android:layout_alignBottom="@+id/edtxtInseriDescricaoCadProID"
+            android:layout_alignStart="@+id/textView9"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </RelativeLayout>
+
+</LinearLayout>

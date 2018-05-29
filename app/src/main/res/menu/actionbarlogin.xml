@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuAlteraSenhaID"
+        android:title="Alterar Senha"
+        android:icon="@drawable/icone_senha"
+        app:showAsAction="always"/>
+
+</menu>
